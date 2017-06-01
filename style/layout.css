@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 1em 10%;
+    max-width: 80em;
+    background-image: url(../Image/background.gif);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: top left;
+}
+#home header{
+    background-image: url(../Image/guitarist.gif);
+}
+#about header{
+    background-image: url(../Image/lineup.gif);
+}
+#photos header{
+    background-image: url(../Image/basshead.gif);
+}
+#live header{
+    background-image: url(../Image/bassist.gif);
+}
+#contact header{
+    background-image: url(../Image/drummer.gif);
+}
+header{
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+}
+header nav{
+    padding-left: 10%;
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-image: url(../Image/navbar.gif);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+}
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    border-left-width: .1em;
+    border-left-style: solid;
+}
+header nav li{
+    display: inline;
+}
+header nav li a{
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em solid;
+}
+article{
+    padding: 2em 10%;
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    line-height: 1.8em;
+}
+article img{
+    border-width: .1em;
+    border-style: solid;
+    outline-width: .1em;
+    outline-style: solid;
+}
+div#slidediv{
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+img#slideimg{
+    position: absolute;
+    border-width: 1px;
+    outline-width: 0;
+}
+img#frame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-width: 0px;
+    outline-width: 0px;
+}
+ul#glph li{
+    display: inline;
+}
+td{
+    padding: .5em 3em;
+}
+label{
+    display: block;
+}
+fieldset{
+    border: 0;
+}

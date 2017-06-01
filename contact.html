@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>template</title>
+    <link rel="stylesheet" href="style/basic.css">
+</head>
+<body>
+    <header>
+        <img src="Image/logo.gif" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="live.html">Live</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+    <h1>和我们联系</h1>
+    <form id="con">
+     <fieldset>
+     <p>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="你的名字" id='name' name="name" required="required">
+    </p>
+    <p>
+        <label for='email'>Email:</label>
+        <input type="email" name="email" id="email" placeholder="email@122.com" required="required">
+    </p>
+    <p>
+        <label for="mess">Message:</label>
+        <textarea name="mess" id="mess" cols="30" rows="10" placeholder="想说的话"></textarea>
+    </p>
+         <input type="submit" value="send">
+    </fieldset>
+    </form>
+    </article>
+    <script src='script/global.js'></script>
+</body>
+</html>
